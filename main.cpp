@@ -4,18 +4,17 @@ using namespace std;
 
 int main() {
 
-	double x; double y;
-	cin>>x>>y;
-	double resultado1 = basica::somar(x,y);
-	double resultado2 = basica::subtrair(x,y);
-	double resultado3 = basica::dividir(x,y);
-	double resultado4 = basica::multiplicar(x,y);
+    int quantidade;
+    char cOuS;
+    
+	cout << "Bem vindo a Calculadora++\n";
+    do {
+        cout << "Deseja continuar\n";
+        cout << "Digite C: coninuar; S: sair\n";
+        cin >> cOuS;
+    } while (cOuS == 'C');
 
-	cout<<resultado1<<endl;
-	cout<<resultado2<<endl;
-	cout<<resultado3<<endl;
-	cout<<resultado4<<endl;
-
+    
 	return 0;
 
 }
